@@ -84,6 +84,8 @@ function countOfList () {
         type="button"
         @click="pick()"
       >Pick</button>
+      <p>숫자가 2인경우 1 또는 2 yes or no를 출력함</p>
+      <p>숫자가 n인경우 점수를 매겨서 순위를 출력함</p>
     </fieldset>
     <div
       v-show="result"
